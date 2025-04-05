@@ -1,466 +1,969 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TFTech | Главная</title>
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/main.css" />
     <script src="./scripts/main.js" type="module" defer></script>
-</head>
-<body>
+  </head>
+
+  <body>
     <!--шапка -->
-   <header class="header" data-js-header>
-    <div class="header__promo">
+    <header class="header" data-js-header>
+      <div class="header__promo">
         <div class="header__promo-inner container">
-            <a href="/" class="header__promo-link">
-                <span class="icon icon--green-arrow">
-                    Подпишитесь на нашу рассылку, чтобы быть в курсе новых блогов и полезных материалов
-                </span>  
-            </a>
+          <a href="/" class="header__promo-link">
+            <span class="icon icon--green-arrow">
+              Подпишитесь на нашу рассылку, чтобы быть в курсе новых блогов и
+              полезных материалов
+            </span>
+          </a>
         </div>
-    </div>
-    <div class="header__body">
+      </div>
+      <div class="header__body">
         <div class="header__body-inner container">
-            <a href="/" class="header__logo logo" title="Главня" aria-label="Главня">
-                <img src="./icons/logo.svg" alt="" class="logo__image" width="133" height="50">
+          <a
+            href="/"
+            class="header__logo logo"
+            title="Главня"
+            aria-label="Главня"
+          >
+            <img
+              src="./icons/logo.svg"
+              alt=""
+              class="logo__image"
+              width="133"
+              height="50"
+            />
+          </a>
+          <div class="header__overlay" data-js-header-overlay>
+            <nav class="header__menu">
+              <ul class="header__menu-list">
+                <li class="header__menu-item">
+                  <a href="/" class="header__menu-link is-active"> Главная </a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/" class="header__menu-link"> Новости </a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/" class="header__menu-link"> Подкасты </a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/" class="header__menu-link"> Ресурсы </a>
+                </li>
+              </ul>
+            </nav>
+            <a href="/" class="header__contact-us-link button button--accent">
+              Контакты
             </a>
-            <div class="header__overlay" data-js-header-overlay>
-                <nav class="header__menu">
-                    <ul class="header__menu-list">
-                        <li class="header__menu-item">
-                            <a href="/" class="header__menu-link is-active">
-                                Главная
-                            </a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="/" class="header__menu-link">
-                                Новости
-                            </a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="/" class="header__menu-link">
-                                Подкасты
-                            </a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="/" class="header__menu-link">
-                                Ресурсы
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <a href="/" class="header__contact-us-link button button--accent">
-                    Контакты
-                </a>
-            </div>
-            <!-- бургер кнопка -->
-             <button class="header__burger-button burger-button visible-mobile" type="button" aria-label="Открыть меню" title="Открыть меню" data-js-header-burger-button>
-                <span class="burger-button__line"></span>
-                <span class="burger-button__line"></span>
-                <span class="burger-button__line"></span>
-             </button>
-
+          </div>
+          <!-- бургер кнопка -->
+          <button
+            class="header__burger-button burger-button visible-mobile"
+            type="button"
+            aria-label="Открыть меню"
+            title="Открыть меню"
+            data-js-header-burger-button
+          >
+            <span class="burger-button__line"></span>
+            <span class="burger-button__line"></span>
+            <span class="burger-button__line"></span>
+          </button>
         </div>
-    </div>
+      </div>
+    </header>
 
-
-   </header>
-
-   <!-- главный баннер -->
-   <main>
-    <section class="hero" aria-labelledby="hero-title">
+    <!-- главный баннер -->
+    <main>
+      <!-- 1 секция  -->
+      <section class="hero" aria-labelledby="hero-title">
         <div class="hero__main container">
-            <div class="hero__body">
-                <p class="hero__subtitle">Ваш путь к завтрашнему дню начинается здесь</p>
-                <h1 class="hero__title" id="hero-title">Исследуйте горизонты искусственного интеллекта</h1>
-                <div class="hero__description">
-                    <p>Добро пожаловать в эпицентр инноваций в области искусственного интеллекта. TFTech AI News — ваш пропуск в мир, где машины мыслят, учатся и формируют будущее. Присоединяйтесь к нашему дальновидному путешествию в самое сердце ИИ.</p>
-                </div>
+          <div class="hero__body">
+            <p class="hero__subtitle">
+              Ваш путь к завтрашнему дню начинается здесь
+            </p>
+            <h1 class="hero__title" id="hero-title">
+              Исследуйте горизонты искусственного интеллекта
+            </h1>
+            <div class="hero__description">
+              <p>
+                Добро пожаловать в эпицентр инноваций в области искусственного
+                интеллекта. TFTech AI News — ваш пропуск в мир, где машины
+                мыслят, учатся и формируют будущее. Присоединяйтесь к нашему
+                дальновидному путешествию в самое сердце ИИ.
+              </p>
             </div>
-            <div class="hero__metrics metrics full-vw-line full-vw-line--top full-vw-line--left">
-                <dl class="metrics__list">
-                    <div class="metrics__item">
-                        <dt class="metrics__key">Доступные ресурсы</dt>
-                        <dd class="metrics__value h3">350<span class="metrics__sign">+</span></dd>
-                    </div>
+          </div>
+          <div
+            class="hero__metrics metrics full-vw-line full-vw-line--top full-vw-line--left"
+          >
+            <dl class="metrics__list">
+              <div class="metrics__item">
+                <dt class="metrics__key">Доступные ресурсы</dt>
+                <dd class="metrics__value h3">
+                  350<span class="metrics__sign">+</span>
+                </dd>
+              </div>
 
-                    <div class="metrics__item">
-                        <dt class="metrics__key">Всего скачиваний</dt>
-                        <dd class="metrics__value h3">12k<span class="metrics__sign">+</span></dd>
-                    </div>
+              <div class="metrics__item">
+                <dt class="metrics__key">Всего скачиваний</dt>
+                <dd class="metrics__value h3">
+                  12k<span class="metrics__sign">+</span>
+                </dd>
+              </div>
 
-                    <div class="metrics__item">
-                        <dt class="metrics__key">Активные пользователи</dt>
-                        <dd class="metrics__value h3">15k<span class="metrics__sign">+</span></dd>
-                    </div>
-                </dl>
+              <div class="metrics__item">
+                <dt class="metrics__key">Активные пользователи</dt>
+                <dd class="metrics__value h3">
+                  15k<span class="metrics__sign">+</span>
+                </dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero__resources-preview resources-preview">
+            <div class="resources-preview__team team">
+              <img
+                src="./images/team/1.png"
+                alt=""
+                class="team__person"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <img
+                src="./images/team/2.png"
+                alt=""
+                class="team__person"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <img
+                src="./images/team/3.png"
+                alt=""
+                class="team__person"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
+              <img
+                src="./images/team/4.png"
+                alt=""
+                class="team__person"
+                width="60"
+                height="60"
+                loading="lazy"
+              />
             </div>
-            <div class="hero__resources-preview resources-preview">
-                <div class="resources-preview__team team">
-                    <img src="./images/team/1.png" alt="" class="team__person" width="60" height="60" loading="lazy">
-                    <img src="./images/team/2.png" alt="" class="team__person" width="60" height="60" loading="lazy">
-                    <img src="./images/team/3.png" alt="" class="team__person" width="60" height="60" loading="lazy">
-                    <img src="./images/team/4.png" alt="" class="team__person" width="60" height="60" loading="lazy">
-                </div>
-                <div class="resources-preview__body">
-                    <p class="resources-preview__title h5">Изучи 1000+ ресурсов</p>
-                    <p class="resources-preview__subtitle">Более 1,000 статей о новых технологиях и прорывах.</p>
-                </div>
-                <a href="/" class="resources-preview__button button">
-                    <span class="icon icon--green-arrow">Изучай ресурсы</span>
-                </a>
-
+            <div class="resources-preview__body">
+              <p class="resources-preview__title h5">Изучи 1000+ ресурсов</p>
+              <p class="resources-preview__subtitle">
+                Более 1,000 статей о новых технологиях и прорывах.
+              </p>
             </div>
+            <a href="/" class="resources-preview__button button">
+              <span class="icon icon--green-arrow">Изучай ресурсы</span>
+            </a>
+          </div>
         </div>
         <div class="hero__advantages">
-            <h2 class="visually-hidden">Наше преимущество</h2>
-            <ul class="hero__advantages-list container">
-                <li class="hero__advantages-item">
-                    <div class="advantage-card">
-                        <img src="./images/advantages/icon-1.svg" alt="" class="advantage-card__image" width="50" height="50">
-                        <a href="/" class="advantage-card__link">
-                            <h3 class="advantage-card__title h6">Свежие новости</h3>
-                            <p class="advantage-card__subtitle">Будь в курсе</p>
-                        </a>
-                        <p class="advantage-card__details">Более 1,000 статей публикуется ежемесячно
-                        </p>
-                    </div>
-                </li>
+          <h2 class="visually-hidden">Наше преимущество</h2>
+          <ul class="hero__advantages-list container">
+            <li class="hero__advantages-item">
+              <div class="advantage-card">
+                <img
+                  src="./images/advantages/icon-1.svg"
+                  alt=""
+                  class="advantage-card__image"
+                  width="50"
+                  height="50"
+                />
+                <a href="/" class="advantage-card__link">
+                  <h3 class="advantage-card__title h6">Свежие новости</h3>
+                  <p class="advantage-card__subtitle">Будь в курсе</p>
+                </a>
+                <p class="advantage-card__details">
+                  Более 1,000 статей публикуется ежемесячно
+                </p>
+              </div>
+            </li>
 
-                <li class="hero__advantages-item">
-                    <div class="advantage-card">
-                        <img src="./images/advantages/Icon-2.svg" alt="" class="advantage-card__image" width="50" height="50">
-                        <a href="/" class="advantage-card__link">
-                            <h3 class="advantage-card__title h6">Авторы-эксперты</h3>
-                            <p class="advantage-card__subtitle">Надёжные сведения</p>
-                        </a>
-                        <p class="advantage-card__details">Более 50+ ведущих экспертов по ИИ в нашей команде
-                        </p>
-                    </div>
-                </li>
+            <li class="hero__advantages-item">
+              <div class="advantage-card">
+                <img
+                  src="./images/advantages/Icon-2.svg"
+                  alt=""
+                  class="advantage-card__image"
+                  width="50"
+                  height="50"
+                />
+                <a href="/" class="advantage-card__link">
+                  <h3 class="advantage-card__title h6">Авторы-эксперты</h3>
+                  <p class="advantage-card__subtitle">Надёжные сведения</p>
+                </a>
+                <p class="advantage-card__details">
+                  Более 50+ ведущих экспертов по ИИ в нашей команде
+                </p>
+              </div>
+            </li>
 
-                <li class="hero__advantages-item">
-                    <div class="advantage-card">
-                        <img src="./images/advantages/Icon-3.svg" alt="" class="advantage-card__image" width="50" height="50">
-                        <a href="/" class="advantage-card__link">
-                            <h3 class="advantage-card__title h6">Глобальная аудитория</h3>
-                            <p class="advantage-card__subtitle">Мировое воздействие</p>
-                        </a>
-                        <p class="advantage-card__details">Два миллиона читателей в месяц
-                        </p>
-                    </div>
-                </li>
-
-            </ul>
+            <li class="hero__advantages-item">
+              <div class="advantage-card">
+                <img
+                  src="./images/advantages/Icon-3.svg"
+                  alt=""
+                  class="advantage-card__image"
+                  width="50"
+                  height="50"
+                />
+                <a href="/" class="advantage-card__link">
+                  <h3 class="advantage-card__title h6">Глобальная аудитория</h3>
+                  <p class="advantage-card__subtitle">Мировое воздействие</p>
+                </a>
+                <p class="advantage-card__details">
+                  Два миллиона читателей в месяц
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
-    </section>
-
-    <section class="section" aria-labelledby="features-title">
+      </section>
+      <!-- 2 секция  -->
+      <section class="section" aria-labelledby="features-title">
         <header class="section__header">
-            <div class="section__header-inner container">
-                <div class="section__header-info">
-                    <p class="section__subtitle tag">Освободи мощь</p>
-                    <h2 class="section__title" id="features-title">Функции TFTech</h2>
-                </div>
+          <div class="section__header-inner container">
+            <div class="section__header-info">
+              <p class="section__subtitle tag">Освободи мощь</p>
+              <h2 class="section__title" id="features-title">Функции TFTech</h2>
             </div>
+          </div>
         </header>
         <div class="section__body">
-            <ul class="list">
-                <li class="list__item">
-                    <div class="card container">
-                        <div class="card__preview">
-                            <div class="card__preview-main">
-                                <img src="./images/features/1.png" alt="" class="card__preview-icon" width="80" height="80" loading="lazy">
+          <ul class="list">
+            <li class="list__item">
+              <div class="card container">
+                <div class="card__preview">
+                  <div class="card__preview-main">
+                    <img
+                      src="./images/features/1.png"
+                      alt=""
+                      class="card__preview-icon"
+                      width="80"
+                      height="80"
+                      loading="lazy"
+                    />
 
-                                <div class="card__preview-info">
-                                    <h3 class="card__preview-title">Блог о технологиях будущего</h3>
-                                    <div class="card__preview-description">
-                                        <p>Оставайтесь в курсе событий с нашим блогом, посвященным технологиям будущего.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <div class="card__grid card__grid--2-cols">
-                                <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Количество</h4>
-                                    <p class="card__cell-description">Более 1000 статей о технологических трендах и достижениях.</p>
-                                </div>
-
-                                <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Разнообразие</h4>
-                                    <p class="card__cell-description">Статьи охватывают такие области, как искусственный интеллект, робототехника, биотехнологии и многое другое.</p>
-                                </div>
-
-                                <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Частота обновлений</h4>
-                                    <p class="card__cell-description">Свежий контент добавляется ежедневно, чтобы вы оставались в курсе последних новостей.</p>
-                                </div>
-
-                                <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Авторитетность</h4>
-                                    <p class="card__cell-description">Материалы подготовлены нашей командой экспертов в сфере технологий и профессионалов отрасли.</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="card__preview-info">
+                      <h3 class="card__preview-title">
+                        Блог о технологиях будущего
+                      </h3>
+                      <div class="card__preview-description">
+                        <p>
+                          Оставайтесь в курсе событий с нашим блогом,
+                          посвященным технологиям будущего.
+                        </p>
+                      </div>
                     </div>
+                  </div>
+                </div>
+                <div class="card__body">
+                  <div class="card__grid card__grid--2-cols">
+                    <div class="card__cell tile">
+                      <h4 class="card__cell-title h5">Количество</h4>
+                      <p class="card__cell-description">
+                        Более 1000 статей о технологических трендах и
+                        достижениях.
+                      </p>
+                    </div>
+
+                    <div class="card__cell tile">
+                      <h4 class="card__cell-title h5">Разнообразие</h4>
+                      <p class="card__cell-description">
+                        Статьи охватывают такие области, как искусственный
+                        интеллект, робототехника, биотехнологии и многое другое.
+                      </p>
+                    </div>
+
+                    <div class="card__cell tile">
+                      <h4 class="card__cell-title h5">Частота обновлений</h4>
+                      <p class="card__cell-description">
+                        Свежий контент добавляется ежедневно, чтобы вы
+                        оставались в курсе последних новостей.
+                      </p>
+                    </div>
+
+                    <div class="card__cell tile">
+                      <h4 class="card__cell-title h5">Авторитетность</h4>
+                      <p class="card__cell-description">
+                        Материалы подготовлены нашей командой экспертов в сфере
+                        технологий и профессионалов отрасли.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="list__item">
+              <div class="card container">
+                <div class="card__preview">
+                  <div class="card__preview-main">
+                    <img
+                      src="./images/features/2.png"
+                      alt=""
+                      class="card__preview-icon"
+                      width="80"
+                      height="80"
+                      loading="lazy"
+                    />
+
+                    <div class="card__preview-info">
+                      <h3 class="card__preview-title">
+                        Блоги с аналитическими исследованиями
+                      </h3>
+                      <div class="card__preview-description">
+                        <p>
+                          Погрузитесь в мир будущих технологических концепций
+                          вместе с нашим исследовательским разделом.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card__body">
+                  <div class="card__grid card__grid--2-cols">
+                    <div class="card__cell tile">
+                      <h4 class="card__cell-title h5">Глубина знаний</h4>
+                      <p class="card__cell-description">
+                        Более 500 исследовательских статей для всестороннего
+                        понимания.
+                      </p>
+                    </div>
+
+                    <div class="card__cell tile">
+                      <h4 class="card__cell-title h5">Графика</h4>
+                      <p class="card__cell-description">
+                        Визуальные материалы и инфографика для лучшего усвоения
+                        информации.
+                      </p>
+                    </div>
+
+                    <div class="card__cell tile">
+                      <h4 class="card__cell-title h5">Тенденции</h4>
+                      <p class="card__cell-description">
+                        Исследуйте возникающие тренды в области исследований
+                        будущих технологий.
+                      </p>
+                    </div>
+
+                    <div class="card__cell tile">
+                      <h4 class="card__cell-title h5">Авторы</h4>
+                      <p class="card__cell-description">
+                        Материалы от исследователей в сфере технологий
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- 3 секция -->
+      <section class="section" aria-labelledby="blog-title">
+        <header class="section__header">
+          <div class="section__header-inner container">
+            <div class="section__header-info">
+              <p class="section__subtitle tag">Сокровищница знаний</p>
+              <h2 class="section__title" id="blog-title">
+                Исследуйте технологии будущего в блогах TFTech
+              </h2>
+            </div>
+            <a href="/" class="section__link button">
+              <span class="icon icon--green-arrow">Все блоги</span>
+            </a>
+          </div>
+        </header>
+        <div class="section__body tabs" data-js-tabs>
+          <h3 class="visually-hidden" id="blog-category-title">
+            Blog category
+          </h3>
+
+          <header class="tabs__header">
+            <div
+              class="tabs__buttons container"
+              role="tablist"
+              aria-labelledby="blog-category-title"
+            >
+              <button
+                class="tabs__button is-active"
+                id="tab-1"
+                type="button"
+                role="tab"
+                aria-controls="tabpanel-1"
+                data-js-tabs-button
+                aria-selected="true"
+              >
+                Все
+              </button>
+
+              <button
+                class="tabs__button"
+                id="tab-2"
+                type="button"
+                role="tab"
+                aria-controls="tabpanel-2"
+                data-js-tabs-button
+                aria-selected="false"
+                tabindex="-1"
+              >
+                Квантовые вычисления
+              </button>
+
+              <button
+                class="tabs__button"
+                id="tab-3"
+                type="button"
+                role="tab"
+                aria-controls="tabpanel-3"
+                data-js-tabs-button
+                aria-selected="false"
+                tabindex="-1"
+              >
+                Этика ИИ
+              </button>
+
+              <button
+                class="tabs__button"
+                id="tab-4"
+                type="button"
+                role="tab"
+                aria-controls="tabpanel-4"
+                data-js-tabs-button
+                aria-selected="false"
+                tabindex="-1"
+              >
+                Исследование космоса
+              </button>
+
+              <button
+                class="tabs__button"
+                id="tab-5"
+                type="button"
+                role="tab"
+                aria-controls="tabpanel-5"
+                data-js-tabs-button
+                aria-selected="false"
+                tabindex="-1"
+              >
+                Биотехнологии
+              </button>
+
+              <button
+                class="tabs__button"
+                id="tab-6"
+                type="button"
+                role="tab"
+                aria-controls="tabpanel-6"
+                data-js-tabs-button
+                aria-selected="false"
+                tabindex="-1"
+              >
+                Возобновляемая энергия
+              </button>
+            </div>
+          </header>
+
+          <div class="tabs__body">
+            <div
+              class="tabs__content is-active"
+              id="tabpanel-1"
+              aria-labelledby="tab-1"
+              tabindex="0"
+              data-js-tabs-content
+            >
+             <ul class="list">
+                <li class="list__item">
+                    <article class="blog-card container">
+                        <div class="blog-card__author person-card">
+                            <img src="./images/blog/1.png" alt="" class="person-card__image" width="80" height="80" loading="lazy">
+                            <div class="person-card__body">
+                                <p class="person-card__name">Антон Ельчин</p>
+                                <p class="person-card__department">Квантовые вычисления</p>
+                            </div>
+                        </div>
+                        <div class="block-card__body">
+                            <time datetime="2024-05-23" class="blog-card__date">23 Мая, 2024</time>
+                            <div class="blog-card__info">
+                                <h4 class="blog-card__title">Квантовый скачок в вычислительной технике</h4>
+                                <div class="blog-card__description">
+                                    <p>Исследуйте революцию в области квантовых вычислений, их применения и потенциал влияния на разные отрасли.</p>
+                                </div>
+                            </div>
+                            <div class="blog-card__actions blog-actions">
+                                <ul class="blog-actions__list">
+                                    <li class="blog-actions__item">
+                                        <button class="blog-actions__button is-active" type="button" aria-label="Dislike" title="Dislike">
+                                            <span class="blog-actions__icon-wrapper">
+                                                <svg width="24" height="25" fill="none" viewBox="0 0 24 25">
+                                                    <path stroke="#666" stroke-linejoin="round" stroke-width="1.5" d="m11.645 21.41-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.86 2.25 12.674 2.25 8.75c0-2.928 2.464-5.25 5.438-5.25A5.5 5.5 0 0 1 12 5.552 5.5 5.5 0 0 1 16.313 3.5c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z"/>
+                                                </svg>
+                                            </span>
+                                            <span>55.5k</span>
+                                        </button>
+                                    </li>
+
+                                    <li class="blog-actions__item">
+                                        <button class="blog-actions__button" type="button" aria-label="Discuss" title="Discuss">
+                                            <span class="blog-actions__icon-wrapper">
+                                                <svg width="24" height="25" fill="none" viewBox="0 0 24 25">
+                                                    <path stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.486 19.689c1.06.52 2.253.811 3.514.811a8 8 0 1 0-6.66-3.566m3.146 2.755L4 20.5l1.34-3.566m3.146 2.755.006-.001M5.34 16.934l.002-.003"/>
+                                                </svg>
+                                            </span>
+                                            <span>50</span>
+                                        </button>
+                                    </li>
+
+                                    <li class="blog-actions__item">
+                                        <button class="blog-actions__button" type="button" aria-label="Share" title="Share">
+                                            <span class="blog-actions__icon-wrapper">
+                                                <svg width="24" height="25" fill="none" viewBox="0 0 24 25">
+                                                    <path stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m10.038 14.462-5.866-2.667c-.807-.367-.773-1.525.055-1.844L18.9 4.308c.809-.311 1.603.483 1.292 1.292L14.55 20.273c-.319.828-1.477.863-1.844.055l-2.667-5.866Zm0 0 4.385-4.385"/>
+                                                </svg>
+                                            </span>
+                                            <span>30</span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="" class="blog-card__link button">
+                            <span class="icon icon--green-arrow">Просмотреть</span>
+                        </a>
+                    </article>
                 </li>
 
                 <li class="list__item">
-                    <div class="card container">
-                        <div class="card__preview">
-                            <div class="card__preview-main">
-                                <img src="./images/features/2.png" alt="" class="card__preview-icon" width="80" height="80" loading="lazy">
-
-                                <div class="card__preview-info">
-                                    <h3 class="card__preview-title">Блоги с аналитическими исследованиями</h3>
-                                    <div class="card__preview-description">
-                                        <p>Погрузитесь в мир будущих технологических концепций вместе с нашим исследовательским разделом.</p>
-                                    </div>
-                                </div>
+                    <article class="blog-card container">
+                        <div class="blog-card__author person-card">
+                            <img src="./images/blog/2.png" alt="" class="person-card__image" width="80" height="80" loading="lazy">
+                            <div class="person-card__body">
+                                <p class="person-card__name">Джон Хилси</p>
+                                <p class="person-card__department">Исследование космоса</p>
                             </div>
                         </div>
-                        <div class="card__body">
-                            <div class="card__grid card__grid--2-cols">
-                                <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Глубина знаний</h4>
-                                    <p class="card__cell-description">Более 500 исследовательских статей для всестороннего понимания.</p>
-                                </div>
-
-                                <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Графика</h4>
-                                    <p class="card__cell-description">Визуальные материалы и инфографика для лучшего усвоения информации.
+                        <div class="block-card__body">
+                            <time datetime="2025-03-31" class="blog-card__date">31 марта, 2025</time>
+                            <div class="blog-card__info">
+                                <h4 class="blog-card__title">Проблематика колонизации Марса</h4>
+                                <div class="blog-card__description">
+                                    <p>Исследование технических и логистических сложностей освоения Красной планеты человеком.
                                     </p>
                                 </div>
+                            </div>
+                            <div class="blog-card__actions blog-actions">
+                                <ul class="blog-actions__list">
+                                    <li class="blog-actions__item">
+                                        <button class="blog-actions__button is-active" type="button" aria-label="Dislike" title="Dislike">
+                                            <span class="blog-actions__icon-wrapper">
+                                                <svg width="24" height="25" fill="none" viewBox="0 0 24 25">
+                                                    <path stroke="#666" stroke-linejoin="round" stroke-width="1.5" d="m11.645 21.41-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.86 2.25 12.674 2.25 8.75c0-2.928 2.464-5.25 5.438-5.25A5.5 5.5 0 0 1 12 5.552 5.5 5.5 0 0 1 16.313 3.5c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z"/>
+                                                </svg>
+                                            </span>
+                                            <span>55.5k</span>
+                                        </button>
+                                    </li>
 
-                                <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Тенденции</h4>
-                                    <p class="card__cell-description">Исследуйте возникающие тренды в области исследований будущих технологий.</p>
-                                </div>
+                                    <li class="blog-actions__item">
+                                        <button class="blog-actions__button" type="button" aria-label="Discuss" title="Discuss">
+                                            <span class="blog-actions__icon-wrapper">
+                                                <svg width="24" height="25" fill="none" viewBox="0 0 24 25">
+                                                    <path stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.486 19.689c1.06.52 2.253.811 3.514.811a8 8 0 1 0-6.66-3.566m3.146 2.755L4 20.5l1.34-3.566m3.146 2.755.006-.001M5.34 16.934l.002-.003"/>
+                                                </svg>
+                                            </span>
+                                            <span>50</span>
+                                        </button>
+                                    </li>
 
-                                <div class="card__cell tile">
-                                    <h4 class="card__cell-title h5">Авторы</h4>
-                                    <p class="card__cell-description">Материалы от исследователей в сфере технологий</p>
-                                </div>
+                                    <li class="blog-actions__item">
+                                        <button class="blog-actions__button" type="button" aria-label="Share" title="Share">
+                                            <span class="blog-actions__icon-wrapper">
+                                                <svg width="24" height="25" fill="none" viewBox="0 0 24 25">
+                                                    <path stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m10.038 14.462-5.866-2.667c-.807-.367-.773-1.525.055-1.844L18.9 4.308c.809-.311 1.603.483 1.292 1.292L14.55 20.273c-.319.828-1.477.863-1.844.055l-2.667-5.866Zm0 0 4.385-4.385"/>
+                                                </svg>
+                                            </span>
+                                            <span>30</span>
+                                        </button>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
+                        <a href="" class="blog-card__link button">
+                            <span class="icon icon--green-arrow">Просмотреть</span>
+                        </a>
+                    </article>
                 </li>
-            </ul>
+
+                <li class="list__item">
+                    <article class="blog-card container">
+                        <div class="blog-card__author person-card">
+                            <img src="./images/blog/3.png" alt="" class="person-card__image" width="80" height="80" loading="lazy">
+                            <div class="person-card__body">
+                                <p class="person-card__name">Клара Зингер</p>
+                                <p class="person-card__department">Этика ИИ</p>
+                            </div>
+                        </div>
+                        <div class="block-card__body">
+                            <time datetime="2024-06-05" class="blog-card__date">5 июня, 2024</time>
+                            <div class="blog-card__info">
+                                <h4 class="blog-card__title">Этика искусственного интеллекта</h4>
+                                <div class="blog-card__description">
+                                    <p>Погружение в мир сложных моральных вопросов, порождаемых ИИ, таких как предвзятость, защита приватности и стремление к прозрачности.</p>
+                                </div>
+                            </div>
+                            <div class="blog-card__actions blog-actions">
+                                <ul class="blog-actions__list">
+                                    <li class="blog-actions__item">
+                                        <button class="blog-actions__button is-active" type="button" aria-label="Dislike" title="Dislike">
+                                            <span class="blog-actions__icon-wrapper">
+                                                <svg width="24" height="25" fill="none" viewBox="0 0 24 25">
+                                                    <path stroke="#666" stroke-linejoin="round" stroke-width="1.5" d="m11.645 21.41-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.86 2.25 12.674 2.25 8.75c0-2.928 2.464-5.25 5.438-5.25A5.5 5.5 0 0 1 12 5.552 5.5 5.5 0 0 1 16.313 3.5c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z"/>
+                                                </svg>
+                                            </span>
+                                            <span>35.2k</span>
+                                        </button>
+                                    </li>
+
+                                    <li class="blog-actions__item">
+                                        <button class="blog-actions__button" type="button" aria-label="Discuss" title="Discuss">
+                                            <span class="blog-actions__icon-wrapper">
+                                                <svg width="24" height="25" fill="none" viewBox="0 0 24 25">
+                                                    <path stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.486 19.689c1.06.52 2.253.811 3.514.811a8 8 0 1 0-6.66-3.566m3.146 2.755L4 20.5l1.34-3.566m3.146 2.755.006-.001M5.34 16.934l.002-.003"/>
+                                                </svg>
+                                            </span>
+                                            <span>40</span>
+                                        </button>
+                                    </li>
+
+                                    <li class="blog-actions__item">
+                                        <button class="blog-actions__button" type="button" aria-label="Share" title="Share">
+                                            <span class="blog-actions__icon-wrapper">
+                                                <svg width="24" height="25" fill="none" viewBox="0 0 24 25">
+                                                    <path stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m10.038 14.462-5.866-2.667c-.807-.367-.773-1.525.055-1.844L18.9 4.308c.809-.311 1.603.483 1.292 1.292L14.55 20.273c-.319.828-1.477.863-1.844.055l-2.667-5.866Zm0 0 4.385-4.385"/>
+                                                </svg>
+                                            </span>
+                                            <span>30</span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="" class="blog-card__link button">
+                            <span class="icon icon--green-arrow">Просмотреть</span>
+                        </a>
+                    </article>
+                </li>
+             </ul>
+            </div>
+            <div
+              class="tabs__content"
+              id="tabpanel-2"
+              aria-labelledby="tab-2"
+              tabindex="0"
+              data-js-tabs-content
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              sapiente nostrum magni repudiandae inventore cupiditate, itaque
+              atque dignissimos doloremque minima ab explicabo delectus natus
+              excepturi! Dicta nobis praesentium rem tenetur?
+            </div>
+
+            <div
+              class="tabs__content"
+              id="tabpanel-3"
+              aria-labelledby="tab-3"
+              tabindex="0"
+              data-js-tabs-content
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              sapiente nostrum magni repudiandae inventore cupiditate, itaque
+              atque dignissimos doloremque minima ab explicabo delectus natus
+              excepturi! Dicta nobis praesentium rem tenetur?
+            </div>
+
+            <div
+              class="tabs__content"
+              id="tabpanel-4"
+              aria-labelledby="tab-4"
+              tabindex="0"
+              data-js-tabs-content
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              sapiente nostrum magni repudiandae inventore cupiditate, itaque
+              atque dignissimos doloremque minima ab explicabo delectus natus
+              excepturi! Dicta nobis praesentium rem tenetur?
+            </div>
+
+            <div
+              class="tabs__content"
+              id="tabpanel-5"
+              aria-labelledby="tab-5"
+              tabindex="0"
+              data-js-tabs-content
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              sapiente nostrum magni repudiandae inventore cupiditate, itaque
+              atque dignissimos doloremque minima ab explicabo delectus natus
+              excepturi! Dicta nobis praesentium rem tenetur?
+            </div>
+
+            <div
+              class="tabs__content"
+              id="tabpanel-6"
+              aria-labelledby="tab-6"
+              tabindex="0"
+              data-js-tabs-content
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              sapiente nostrum magni repudiandae inventore cupiditate, itaque
+              atque dignissimos doloremque minima ab explicabo delectus natus
+              excepturi! Dicta nobis praesentium rem tenetur?
+            </div>
+          </div>
         </div>
-    </section>
-   </main>
-   <footer class="footer">
-    <div class="footer__inner container">
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__inner container">
         <div class="footer__body">
-            <nav class="footer__menu">
-                <div class="footer__menu-column">
-                    <a href="/" class="footer__menu-main-link h6">Главная</a>
-                    <ul class="footer__menu-list">
+          <nav class="footer__menu">
+            <div class="footer__menu-column">
+              <a href="/" class="footer__menu-main-link h6">Главная</a>
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Особенности</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Особенности</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Блоги</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Блоги</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Ресурсы</a>
+                  <span class="badge">Новое</span>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Ресурсы</a>
-                            <span class="badge">Новое</span>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Отзывы</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Отзывы</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Связаться с нами</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Связаться с нами</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Рассылка</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__menu-column">
+              <a href="/" class="footer__menu-main-link h6">Подкасты</a>
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Революция ИИ</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Рассылка</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Тренды ИИ</a>
+                </li>
 
-                    </ul>
-                </div>
-                <div class="footer__menu-column">
-                    <a href="/" class="footer__menu-main-link h6">Подкасты</a>
-                    <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Беседы</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Революция ИИ</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Разговор об ИИ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__menu-column">
+              <a href="/" class="footer__menu-main-link h6">Блоги</a>
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Квантовые вычисления</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Тренды ИИ</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Этика ИИ</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Беседы</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Исследование космоса</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Разговор об ИИ</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__menu-column">
-                    <a href="/" class="footer__menu-main-link h6">Блоги</a>
-                    <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Биотехнология</a>
+                  <span class="badge">Новое</span>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Квантовые вычисления</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link"
+                    >Возобновляемая энергия</a
+                  >
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Этика ИИ</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Биохакинг</a>
+                </li>
+              </ul>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Исследование космоса</a>
-                        </li>
+              <!--footer -->
+            </div>
+            <div class="footer__menu-column">
+              <a href="/" class="footer__menu-main-link h6">Главная</a>
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Особенности</a>
+                  <span class="badge">Новое</span>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Биотехнология</a>
-                            <span class="badge">Новое</span>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Блоги</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Возобновляемая энергия</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Ресурсы</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Биохакинг</a>
-                        </li>
-                    </ul>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Отзывы</a>
+                </li>
 
-                    <!--footer -->
-                </div>
-                <div class="footer__menu-column">
-                    <a href="/" class="footer__menu-main-link h6">Главная</a>
-                    <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Связаться с нами</a>
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Особенности</a>
-                            <span class="badge">Новое</span>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Рассылка</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__menu-column">
+              <a href="/" class="footer__menu-main-link h6">Ресурсы</a>
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link button">
+                    <span class="icon icon--green-arrow">Доклады</span></a
+                  >
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Блоги</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link button">
+                    <span class="icon icon--green-arrow"
+                      >Электронные книги</span
+                    ></a
+                  >
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Ресурсы</a>
-                        </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link button"
+                    ><span class="icon icon--green-arrow">Отчеты</span></a
+                  >
+                </li>
 
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Отзывы</a>
-                        </li>
-
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Связаться с нами</a>
-                        </li>
-
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link">Рассылка</a>
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="footer__menu-column">
-                    <a href="/" class="footer__menu-main-link h6">Ресурсы</a>
-                    <ul class="footer__menu-list">
-
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link button">
-                                <span class="icon icon--green-arrow">Доклады</span></a>
-                        </li>
-
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link button">
-                                <span class="icon icon--green-arrow">Электронные книги</span></a>
-                        </li>
-
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link button"><span class="icon icon--green-arrow">Отчеты</span></a>
-                        </li>
-
-                        <li class="footer__menu-item">
-                            <a href="/" class="footer__menu-link button"><span class="icon icon--green-arrow">Статьи</span></a>
-                        </li>
-                    </ul>
-                </div>
-               
-            </nav>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link button"
+                    ><span class="icon icon--green-arrow">Статьи</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
         <div class="footer__extra">
-            <div class="footer__extra-menu">
-                <ul class="footer__extra-menu-list">
-                    <li class="footer__extra-menu-item">
-                        <a href="/" class="footer__extra-menu-link">Условия и положения</a>
-                    </li>
+          <div class="footer__extra-menu">
+            <ul class="footer__extra-menu-list">
+              <li class="footer__extra-menu-item">
+                <a href="/" class="footer__extra-menu-link"
+                  >Условия и положения</a
+                >
+              </li>
 
-                    <li class="footer__extra-menu-item">
-                        <a href="/" class="footer__extra-menu-link">Конфиденциальность</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__soc1als soc1als">
-                <ul class="soc1als__list">
-                    <li class="soc1als__item">
-                        <a
-                        href="/" 
-                        class="soc1als__link" 
-                        target="_blank"
-                        aria-label="vk"
-                        title="vk"
-                        >
-                        <svg width="24" height="24" fill="none" viewBox="0 0 48 48">
-                            <g clip-path="url(#a)">
-                              <path fill="#fff" fill-rule="evenodd" d="M3.374 3.374C0 6.748 0 12.18 0 23.04v1.92c0 10.861 0 16.292 3.374 19.666C6.748 48 12.18 48 23.04 48h1.92c10.861 0 16.292 0 19.666-3.374C48 41.252 48 35.82 48 24.96v-1.92c0-10.861 0-16.292-3.374-19.666C41.252 0 35.82 0 24.96 0h-1.92C12.179 0 6.748 0 3.374 3.374ZM8.1 14.6c.26 12.48 6.5 19.98 17.44 19.98h.62v-7.14c4.02.4 7.06 3.34 8.28 7.14h5.68c-1.56-5.68-5.66-8.82-8.22-10.02 2.56-1.48 6.16-5.08 7.02-9.96h-5.16c-1.12 3.96-4.44 7.56-7.6 7.9v-7.9H21v13.84c-3.2-.8-7.24-4.68-7.42-13.84H8.1Z" clip-rule="evenodd"/>
-                            </g>
-                          </svg>
-                        </a>
-                    </li>
+              <li class="footer__extra-menu-item">
+                <a href="/" class="footer__extra-menu-link"
+                  >Конфиденциальность</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__soc1als soc1als">
+            <ul class="soc1als__list">
+              <li class="soc1als__item">
+                <a
+                  href="/"
+                  class="soc1als__link"
+                  target="_blank"
+                  aria-label="vk"
+                  title="vk"
+                >
+                  <svg width="24" height="24" fill="none" viewBox="0 0 48 48">
+                    <g clip-path="url(#a)">
+                      <path
+                        fill="#fff"
+                        fill-rule="evenodd"
+                        d="M3.374 3.374C0 6.748 0 12.18 0 23.04v1.92c0 10.861 0 16.292 3.374 19.666C6.748 48 12.18 48 23.04 48h1.92c10.861 0 16.292 0 19.666-3.374C48 41.252 48 35.82 48 24.96v-1.92c0-10.861 0-16.292-3.374-19.666C41.252 0 35.82 0 24.96 0h-1.92C12.179 0 6.748 0 3.374 3.374ZM8.1 14.6c.26 12.48 6.5 19.98 17.44 19.98h.62v-7.14c4.02.4 7.06 3.34 8.28 7.14h5.68c-1.56-5.68-5.66-8.82-8.22-10.02 2.56-1.48 6.16-5.08 7.02-9.96h-5.16c-1.12 3.96-4.44 7.56-7.6 7.9v-7.9H21v13.84c-3.2-.8-7.24-4.68-7.42-13.84H8.1Z"
+                        clip-rule="evenodd"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </li>
 
-                    <li class="soc1als__item">
-                        <a
-                        href="/" 
-                        class="soc1als__link" 
-                        target="_blank"
-                        aria-label="telegram"
-                        title="telegram"
-                        >
-                        <svg width="24" height="24" fill="none" viewBox="0 0 48 48">
-                            <g clip-path="url(#a)">
-                              <path fill="#fff" fill-rule="evenodd" d="M48 24c0 13.255-10.745 24-24 24S0 37.255 0 24 10.745 0 24 0s24 10.745 24 24Zm-23.14-6.282c-2.334.97-7 2.98-13.996 6.029-1.136.451-1.731.893-1.786 1.326-.091.73.823 1.018 2.069 1.41.17.052.345.108.525.166 1.225.398 2.874.864 3.73.883.778.017 1.646-.304 2.603-.961 6.537-4.413 9.912-6.643 10.124-6.692.15-.033.356-.076.496.049.14.124.127.36.112.424-.09.386-3.68 3.724-5.539 5.452-.579.538-.99.92-1.074 1.007-.188.196-.38.38-.564.558-1.138 1.098-1.992 1.92.047 3.265.98.645 1.765 1.18 2.547 1.712.854.582 1.707 1.163 2.81 1.885.28.184.549.376.81.562.994.709 1.887 1.346 2.991 1.244.642-.059 1.304-.662 1.64-2.46.795-4.25 2.358-13.46 2.72-17.255a4.228 4.228 0 0 0-.04-.945c-.033-.187-.1-.453-.342-.65-.288-.233-.732-.282-.93-.279-.903.016-2.288.498-8.953 3.27Z" clip-rule="evenodd"/>
-                            </g>
-                          </svg>
-                        </a>
-                    </li>
+              <li class="soc1als__item">
+                <a
+                  href="/"
+                  class="soc1als__link"
+                  target="_blank"
+                  aria-label="telegram"
+                  title="telegram"
+                >
+                  <svg width="24" height="24" fill="none" viewBox="0 0 48 48">
+                    <g clip-path="url(#a)">
+                      <path
+                        fill="#fff"
+                        fill-rule="evenodd"
+                        d="M48 24c0 13.255-10.745 24-24 24S0 37.255 0 24 10.745 0 24 0s24 10.745 24 24Zm-23.14-6.282c-2.334.97-7 2.98-13.996 6.029-1.136.451-1.731.893-1.786 1.326-.091.73.823 1.018 2.069 1.41.17.052.345.108.525.166 1.225.398 2.874.864 3.73.883.778.017 1.646-.304 2.603-.961 6.537-4.413 9.912-6.643 10.124-6.692.15-.033.356-.076.496.049.14.124.127.36.112.424-.09.386-3.68 3.724-5.539 5.452-.579.538-.99.92-1.074 1.007-.188.196-.38.38-.564.558-1.138 1.098-1.992 1.92.047 3.265.98.645 1.765 1.18 2.547 1.712.854.582 1.707 1.163 2.81 1.885.28.184.549.376.81.562.994.709 1.887 1.346 2.991 1.244.642-.059 1.304-.662 1.64-2.46.795-4.25 2.358-13.46 2.72-17.255a4.228 4.228 0 0 0-.04-.945c-.033-.187-.1-.453-.342-.65-.288-.233-.732-.282-.93-.279-.903.016-2.288.498-8.953 3.27Z"
+                        clip-rule="evenodd"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </li>
 
-                    <li class="soc1als__item">
-                        <a
-                        href="/" 
-                        class="soc1als__link" 
-                        target="_blank"
-                        aria-label="youtube"
-                        title="youtube"
-                        >
-                        <svg width="24" height="24" fill="none" viewBox="0 0 48 48">
-                            <path fill="#fff" d="M47.522 14.4s-.469-3.31-1.913-4.762c-1.828-1.913-3.872-1.922-4.809-2.035-6.712-.487-16.79-.487-16.79-.487h-.02s-10.077 0-16.79.487c-.938.113-2.981.122-4.81 2.035C.948 11.09.488 14.4.488 14.4S0 18.29 0 22.172v3.637c0 3.882.478 7.772.478 7.772s.469 3.31 1.903 4.763c1.828 1.912 4.228 1.847 5.297 2.053 3.844.366 16.322.478 16.322.478s10.087-.019 16.8-.497c.938-.112 2.981-.122 4.81-2.034 1.443-1.453 1.912-4.763 1.912-4.763S48 29.701 48 25.81v-3.637c0-3.881-.478-7.772-.478-7.772ZM19.04 30.225v-13.49l12.965 6.768-12.965 6.722Z"/>
-                          </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <p class="footer__copyright">
-                © <time datetime="2025">2025</time> TFTech. All rights reserved.
-            </p>
+              <li class="soc1als__item">
+                <a
+                  href="/"
+                  class="soc1als__link"
+                  target="_blank"
+                  aria-label="youtube"
+                  title="youtube"
+                >
+                  <svg width="24" height="24" fill="none" viewBox="0 0 48 48">
+                    <path
+                      fill="#fff"
+                      d="M47.522 14.4s-.469-3.31-1.913-4.762c-1.828-1.913-3.872-1.922-4.809-2.035-6.712-.487-16.79-.487-16.79-.487h-.02s-10.077 0-16.79.487c-.938.113-2.981.122-4.81 2.035C.948 11.09.488 14.4.488 14.4S0 18.29 0 22.172v3.637c0 3.882.478 7.772.478 7.772s.469 3.31 1.903 4.763c1.828 1.912 4.228 1.847 5.297 2.053 3.844.366 16.322.478 16.322.478s10.087-.019 16.8-.497c.938-.112 2.981-.122 4.81-2.034 1.443-1.453 1.912-4.763 1.912-4.763S48 29.701 48 25.81v-3.637c0-3.881-.478-7.772-.478-7.772ZM19.04 30.225v-13.49l12.965 6.768-12.965 6.722Z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <p class="footer__copyright">
+            © <time datetime="2025">2025</time> TFTech. All rights reserved.
+          </p>
         </div>
-    </div>
-   </footer>
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
