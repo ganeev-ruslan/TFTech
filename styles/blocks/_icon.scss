@@ -27,4 +27,11 @@
         
     }
 
+    &--green-eye{
+        &::after{
+            background-image: url(../../icons/eye__green.svg);
+        }
+        
+    }
+
 }
