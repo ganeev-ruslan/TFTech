@@ -4,3 +4,5 @@ import TabsCollection from './Tabs.js';
 new Header()
 
 new TabsCollection()
+
+
